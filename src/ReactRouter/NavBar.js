@@ -15,6 +15,7 @@ export default function NavBar() {
       </button>
       <br />
       <button onClick={gotoAbout}>ABOUT PAGE</button>
+      <p>THIS IS NAVBAR</p>
     </nav>
   );
 }
