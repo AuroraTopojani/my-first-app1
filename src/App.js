@@ -44,6 +44,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="hello" element={<LoginForm />} />
+        <Route path="posttoken" element={<PostTokenList />} />
       </Routes>
     </div>
   );
